@@ -1,0 +1,66 @@
+baseURL = "https://hod.greeley.org/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Evolve"
+theme = "evolve"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[permalinks]
+  posts = "/posts/:year/:month/:slug/"
+  page = "/:slug/"
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+[params]
+  logo = "images/logo.svg"
+
+# Navigation
+  # Main menu
+    [menu]
+
+      [[menu.main]]
+        name = "About"
+        title = "About"
+        url = "/about/"
+
+      [[menu.main]]
+        name = "Blog"
+        title = "Blog"
+        url = "/posts/"
+
+  # Social links
+    [[params.nav.socialLink]]
+      fa_style = "fab"
+      fa_name = "fa-twitter"
+      url = "https://twitter.com/HodGreeley"
+      color = "#1da1f2"
+
+    [[params.nav.socialLink]]
+      fa_style = "fab"
+      fa_name = "fa-youtube"
+      url = "https://www.youtube.com/c/HodGreeley"
+      color = "#ff0000"
+
+    [[params.nav.socialLink]]
+      fa_style = "fab"
+      fa_name = "fa-linkedin"
+      url = "https://www.linkedin.com/in/hodgreeley/"
+      color = "#0077b5"
+
+    [[params.nav.socialLink]]
+      fa_style = "fab"
+      fa_name = "fa-stack-overflow"
+      url = "https://stackoverflow.com/users/968231/hod"
+      color = "#f48024"
+
+    [[params.nav.socialLink]]
+      fa_style ="fab"
+      fa_name = "fa-github"
+      url = "https://github.com/HodGreeley"
+      color = "#4078c0"

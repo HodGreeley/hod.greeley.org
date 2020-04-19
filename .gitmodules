@@ -1,0 +1,3 @@
+[submodule "themes/evolve"]
+	path = themes/evolve
+	url = https://github.com/HodGreeley/hugo-theme-evolve.git
